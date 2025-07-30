@@ -3,7 +3,7 @@ package db;
 import java.sql.*;
 
 public class CreateTable {
-	public static void createPatientTable() {
+	public static void create() {
 		try {
 			Connection con = DbConnector.getConnection();
 			Statement stmt = con.createStatement();
