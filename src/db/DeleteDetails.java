@@ -13,6 +13,7 @@ public class DeleteDetails {
 			System.out.print("Enter ID of the Patient to Delete:");
 			int choice = sc.nextInt();
 			
+			
 			System.out.println("Are you sure you want to delete?Y/N?");
 			char c = sc.next().toUpperCase().charAt(0);
 			

@@ -12,8 +12,13 @@ public class CreateTable {
 						"ID INT PRIMARY KEY AUTO_INCREMENT," +
 						"NAME VARCHAR(100) NOT NULL," +
 						"AGE INT," +
-						"GENDER VARCHAR(10)" +
-						")";
+						"GENDER VARCHAR(10)," +
+						"ADDRESS VARCHAR(100),"+
+						"CONTACT VARCHAR(10),"+
+						"DISEASE VARCHAR(100),"+
+						"UNDER VARCHAR(100),"+
+						"DOCTOR_ID VARCHAR(5)"+
+						")"; 
 			stmt.executeUpdate(sql);
 			System.out.println("Patient Table created Successfully!!");
 			

@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		//Uncomment this only when the table is created for the first time		
-	    //CreateTable.createPatientTable();
+		//CreateTable.createPatientTable();
 		
 		Scanner sc = new Scanner(System.in);
 		while(true) {

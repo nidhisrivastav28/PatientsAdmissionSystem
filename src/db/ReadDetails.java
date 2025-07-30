@@ -15,14 +15,20 @@ public class ReadDetails {
 			
 			rs = ps.executeQuery();
 			
-			System.out.print("Id\tName\t\tAge\tGender\n");
+			System.out.print("Id\tName\t\tAge\tGender\tAddress\t\tContact\t\tDisease\tUnder\t\tDoctor's ID\n");
 			while(rs.next()) {
-				int id = rs.getInt("id");
-				String name = rs.getString("name");
-				int age = rs.getInt("age");
-				String gender = rs.getString("gender");
+				int id = rs.getInt("ID");
+				String name = rs.getString("NAME");
+				int age = rs.getInt("AGE");
+				String gender = rs.getString("GENDER");
+				String address = rs.getString("ADDRESS");
+				String phno = rs.getString("CONTACT");
+				String disease = rs.getString("DISEASE");
+				String dr_name = rs.getString("UNDER");
+				String dr_id = rs.getString("DOCTOR_ID");
 				
-				System.out.println(id+"\t"+name+"\t"+age+"\t"+gender);
+				
+				System.out.println(id+"\t"+name+"\t\t"+age+"\t"+gender+"\t"+address+"\t"+phno+"\t"+disease+"\t"+dr_name+"\t"+dr_id);
 			}
 		}catch(SQLException e) {
 			System.out.print("Error in displaying");
