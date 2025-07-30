@@ -29,30 +29,30 @@ public class Main {
 					break;
 				case 2: ReadDetails.readPatientDetails();
 					break;
-				case 3:ReadDetails.readPatientDetailsByName();
+				case 3: ReadDetails.readPatientDetailsByName();
 					break;
-				case 4:UpdateDetails.updatePatientDetails();
+				case 4: UpdateDetails.updatePatientDetails();
 					break;
-				case 5:DeleteDetails.deletePatientDetails();
+				case 5: DeleteDetails.deletePatientDetails();
 					break;
-				case 6:InsertRecords.insertDoctorDetails();
+				case 6: InsertRecords.insertDoctorDetails();
 					break;
-				case 7:ReadDetails.readDoctorDetails();
+				case 7: ReadDetails.readDoctorDetails();
 					break;
-				case 8:ReadDetails.readDoctorDetailsBySpecialisation();
+				case 8: ReadDetails.readDoctorDetailsBySpecialisation();
 					break;
-				case 9:UpdateDetails.updateDoctorDetails();
+				case 9: UpdateDetails.updateDoctorDetails();
 					break;
-				case 10:DeleteDetails.deleteDoctorDetails();
+				case 10: DeleteDetails.deleteDoctorDetails();
 					break;
-				case 11:InsertRecords.insertAdmissionDetails();
+				case 11: InsertRecords.insertAdmissionDetails();
 					break;
-				case 12:ReadDetails.readAdmissionDetails();
+				case 12: ReadDetails.readAdmissionDetails();
 					break;
-				case 13:System.out.println("Existing...");
+				case 13: System.out.println("Existing...");
 					sc.close();
 					System.exit(0);
-				default:System.out.println("Invalid Choice!!!");
+				default: System.out.println("Invalid Choice!!!");
 			}
 			
 		}
